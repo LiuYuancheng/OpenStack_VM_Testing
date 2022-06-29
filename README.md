@@ -1,12 +1,12 @@
 # OpenStack[Beta]_VM_Testing
 
-**Project Design Purpose**:  This is an individual project assigned to NCL intern to test (or create) VM image in NCL OpenStack[Beta] provision system platform.
+**Project Design Purpose**:  This is an individual project assigned to NCL interns to test (or create) VM images in NCL OpenStack[Beta] provision system platform.
 
 \{{TOC}}
 
 ### Introduction 
 
-This assignment is an individual project which aims to let National Cybersecurity R&D Laboratory (NCL) interns can pick up the knowledge about OpenStack infrastructure-as-a-service (IaaS) clouds virtual servers provision system, get familiar with the OpenStack user platform, test all the public virtual machine image in NCL OpenStack [Beta] platform and create some OpenStack VM image which can be used by the NCL customers. 
+This assignment is an individual project which aims to let National Cybersecurity R&D Laboratory (NCL) interns pick up knowledge about OpenStack Infrastructure-as-a-Service (IaaS) clouds virtual servers provision system, get familiar with the OpenStack user platform, test all the public virtual machine image in NCL OpenStack [Beta] platform and create some OpenStack VM image which can be used by the NCL customers. 
 
 **Project type**: `Program Testing`, `Individual project` 
 
@@ -18,13 +18,13 @@ This assignment is an individual project which aims to let National Cybersecurit
 
 ##### NCL OpenStack Test bed Platform
 
-Currently NCL is using OpenStack to implement the cluster construction and provide the testbed platform service. NCL has several different levels of OpenStack service cluster for different kinds of users as shown below, the intern will do this assignment on the Open stack[Beta].
+Currently, NCL is using OpenStack to implement the cluster construction and provide the testbed platform service. NCL has several different levels of OpenStack service cluster for different kinds of users as shown below, and the intern will do this assignment on the Open stack[Beta].
 
 - OpenStack [`Production`]: This platform is used for provide the testbed with large computing resource for the public users, mid size companies or cyber exercise host origination. 
 
-- OpenStack [`Beta`]: This platform is used for providing the testbed/training platform for education/research usage purpose such the CTF event host, NUS student/staff course assignment. 
+- OpenStack [`Beta`]: This platform is used for providing the testbed/training platform for education/research usage purposes such as the CTF event host, NUS student/staff course assignment. 
 
-- OpenStack [`Ironic`]: This platform is used for NLC internal users/developers to do the testing before deploying the new function to the production. 
+- OpenStack [`Ironic`]: This platform is used for NCL internal users/developers to do the testing before deploying the new function to the production. 
 
 
 The users can build their own (customized/standard) instance and install the OS image file in the instance to create a VM. The detail usage workflow of NCL OpenStack [Beta] is shown above. Currently the OpenStack Beta have 121 VM images stored in the OpenStack [Beta]. In the 121 VMs, 36 are public VM images which can be used by our customers. Some VM is converted from some customer’s uploaded private VM so current we need to figure out how many VMs in the 39 public VM image can work normally when our customers try to install them in their instance. 
