@@ -114,21 +114,21 @@ The intern will test the customized VM image upload and usage part in OpenStack[
 
 After finished the assignment, the Intern student need to provide below document and program: 
 
-- [ ] Provide an Intern assignment proposal/time line plan.
+- [x] Provide an Intern assignment proposal/time line plan.
 
-- [ ] Provide a VM image manual/dictionary to listed down all the VM detail information. 
+- [x] Provide a VM image manual/dictionary to listed down all the VM detail information. 
 
-- [ ] Provide a Linus shell script to list down all the all the information about the OS/VM. 
+- [x] Provide a Linus shell script to list down all the all the information about the OS/VM. 
 
-- [ ] Provide a Windows cmd script file to list down all the information about the windows VM.
+- [x] Provide a Windows cmd script file to list down all the information about the windows VM.
 
 - [ ] Provide more than 5 embedded VM image 
 
 - [ ] Provide a manual about building a VM image. 
 
-- [ ] Provide a general report and presentation about the task implement. 
+- [x] Provide a general report and presentation about the task implement. 
 
-- [ ] [Optional] Provide a knowledge sharing doc to share with other intern about the learning experience. 
+- [x] [Optional] Provide a knowledge sharing doc to share with other intern about the learning experience. 
 
 
 
